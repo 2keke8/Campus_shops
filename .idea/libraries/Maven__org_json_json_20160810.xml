@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.json:json:20160810">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../java工具/maven/apache-maven-3.8.1/maven-repo/org/json/json/20160810/json-20160810.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../java工具/maven/apache-maven-3.8.1/maven-repo/org/json/json/20160810/json-20160810-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../java工具/maven/apache-maven-3.8.1/maven-repo/org/json/json/20160810/json-20160810-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

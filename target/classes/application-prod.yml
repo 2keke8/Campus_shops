@@ -1,0 +1,77 @@
+spring:
+  datasource:
+    username: root
+    password: rpz2020.
+    url: jdbc:mysql://47.92.165.44:3306/shop?allowMultiQueries=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+
+    # 数据源其他配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    #   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: tomcat.stat.mergeSql=true;tomcat.stat.slowSqlMillis=500
+
+  thymeleaf:
+    suffix: .html
+    prefix:
+      classpath: /templates/
+    cache: false
+
+  jackson: #返回的日期字段的格式
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    serialization:
+      write-dates-as-timestamps: false # true 使用时间戳显示时间
+#spring 2.x后面不要用http 改用 servlet
+  servlet:
+    multipart:
+      max-file-size: 1000000000 #1000MB
+      max-request-size: 1000000000 #1000MB
+  mail:
+    host: smtp.qq.com
+    username: 2540560264@qq.com
+    password: doeertuaocwydjcg
+    default-encoding: utf-8
+    port: 465
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+#配置文件式开发
+mybatis:
+  #全局配置文件的位置
+  config-location: classpath:mybatis/mybatis-config.xml
+  #所有sql映射配置文件的位置
+  mapper-locations: classpath:mybatis/mapper/**/*.xml
+#开启MyBatis的二级缓存
+  mybatis.configuration.cache-enabled: true
+
+#控制台看到执行的SQL语句
+logging:
+  level:
+    com:
+      mapper: debug
+
+#配置并发
+server:
+  port: 7777
+  tomcat:
+    max-connections: 10000 # 服务器最大连接数，默认8192
+    accept-count: 1000  # 等待队列长度，默认100
+    max-threads: 800 # 最大工作线程数，默认200
+    min-spare-threads: 100 # 最小工作空闲线程数，默认10
+  session:
+    timeout: 7200

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.glassfish.jersey.connectors:jersey-apache-connector:2.29.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../java工具/maven/apache-maven-3.8.1/maven-repo/org/glassfish/jersey/connectors/jersey-apache-connector/2.29.1/jersey-apache-connector-2.29.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../java工具/maven/apache-maven-3.8.1/maven-repo/org/glassfish/jersey/connectors/jersey-apache-connector/2.29.1/jersey-apache-connector-2.29.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../java工具/maven/apache-maven-3.8.1/maven-repo/org/glassfish/jersey/connectors/jersey-apache-connector/2.29.1/jersey-apache-connector-2.29.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

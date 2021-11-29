@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.jnr:jnr-enxio:0.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../java工具/maven/apache-maven-3.8.1/maven-repo/com/github/jnr/jnr-enxio/0.9/jnr-enxio-0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../java工具/maven/apache-maven-3.8.1/maven-repo/com/github/jnr/jnr-enxio/0.9/jnr-enxio-0.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../java工具/maven/apache-maven-3.8.1/maven-repo/com/github/jnr/jnr-enxio/0.9/jnr-enxio-0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
